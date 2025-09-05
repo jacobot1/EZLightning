@@ -12,7 +12,7 @@ namespace EZLightning
     public class EZLightning : BaseUnityPlugin
     {
         public const string GUID = "com.jacobot5.EZLightning";
-        public const string NAME = "EZLightning API";
+        public const string NAME = "EZLightning";
         public const string VERSION = "1.0.0";
 
         private readonly Harmony harmony = new Harmony(GUID);
