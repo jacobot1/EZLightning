@@ -41,7 +41,7 @@ namespace EZLightning.Controllers
             localLightningBoltPrefabScript.TrunkWidthRange = new RangeOfFloats { Minimum = minTrunkWidth, Maximum = maxTrunkWidth };
             localLightningBoltPrefabScript.Camera = GameNetworkManager.Instance.localPlayerController.gameplayCamera;
             localLightningBoltPrefabScript.Source.transform.position = strikeOrigin;
-            localLightningBoltPrefabScript.Destination.transform.position = strikeDestination + Vector3.up;
+            localLightningBoltPrefabScript.Destination.transform.position = strikeDestination;
             localLightningBoltPrefabScript.AutomaticModeSeconds = 0.2f;
             localLightningBoltPrefabScript.Generations = 8;
             if ((minCount >= 0) && (maxCount >= 0))
